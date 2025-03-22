@@ -1,0 +1,25 @@
+div.stButton > button {
+    width: 100%;
+    border-radius: 5px;
+}
+
+div.stSelectbox > div {
+    border-radius: 5px;
+}
+
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    background-color: #F0F2F6;
+    border-radius: 5px 5px 0px 0px;
+    gap: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #FFFFFF;
+}
